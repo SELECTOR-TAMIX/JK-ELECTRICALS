@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place an Order - JK Electricals</title>
+    <style>
+        
+        body {
+            background-color: lightblue;}
+        {
+        
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .order-container {
+            max-width: 500px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, select, textarea, button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+     
+    <div class="order-container">
+        <h2>Place an Order</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <select name="product" required>
+                <option value="">Select a Product</option>
+                <option value="Wiring Cables">Wiring Cables</option>
+                <option value="Light Bulbs">Light Bulbs</option>
+                <option value="Switches & Sockets">Switches & Sockets</option>
+                <option value="Electrical Panels">Electrical Panels</option>
+            </select>
+            <textarea name="address" placeholder="Delivery Address" required></textarea>
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+    <a href="index.html">Home</a>
+      <a href="aboutus.html">About</a>
+       <a href="">Place order</a>
+   
+</body>
+</html>
